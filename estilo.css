@@ -1,0 +1,28 @@
+body {
+    background-color: #424242; /* Gris oscuro */
+    color: white;
+    text-align: center; /* Centrar todos los elementos */
+    font-family: Arial, sans-serif;
+}
+
+header, main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+p {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+video {
+    max-width: 640px; /* Establecer el ancho máximo del video */
+    height: auto; /* Asegurar que la altura cambia en proporción al ancho */
+    margin: 0 auto; /* Centrar el vídeo si no ocupa todo el ancho de su contenedor */
+}
